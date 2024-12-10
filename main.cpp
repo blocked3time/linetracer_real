@@ -5,10 +5,10 @@
 #include "opencv2/opencv.hpp"
 #include "dxl.hpp"
 #define MINDISTANCE 75
-#define RPM 100
+#define RPM 100 //200
 using namespace std;
 using namespace cv;
-#define GAIN 0.15
+#define GAIN 0.15 //0.25
 bool ctrl_c_pressed;
 void ctrlc(int)
 {
