@@ -98,6 +98,11 @@ getErr함수를 사용하여 에러값을 구해주고 구한 값을 각 vel 값
 
 앞에 코드가 정상적으로 작동하여 while문이 종료 되었다면 dxl.close()를 해주고 코드를 종료한다.(없을시 코드가 종료되어서 모터는 계속 회전함)
 
+Makefile
+
+![image](https://github.com/user-attachments/assets/f958eca2-5bb7-41ca-bef7-da9191b814f9)
+
+
 
 
 
