@@ -1,5 +1,7 @@
 젯슨과 opencv를 활용한 라인 트레이서 (RPM 100,200)
 
+라인을 검출한 후 라인의 무게중심의 좌표에 따라 구한 에러값을 통하여  rvel,lvel값을 조절하여 라인을 따라가게 된다 라인이 없어지는 경우 이전 값을 따라간다.(라인이 다시 검출 될때까지)
+
 블록도
 
 ![image](https://github.com/user-attachments/assets/d130e3a1-f946-47bb-a245-2e7ba626dedd)
