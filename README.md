@@ -1,5 +1,10 @@
 젯슨과 opencv를 활용한 라인 트레이서 (RPM 100,200)
 
+블록도
+
+![image](https://github.com/user-attachments/assets/d130e3a1-f946-47bb-a245-2e7ba626dedd)
+
+
 RPM 200(in, out)
 
 https://www.youtube.com/watch?v=lV1nvZSyoXs
