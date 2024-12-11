@@ -1,5 +1,13 @@
 젯슨과 opencv를 활용한 라인 트레이서 (RPM 100,200)
 
+#define RPM , GAIN 값을 조절하여 100RPM과 200 RPM으로 둘 다 주행 가능하다.(100RPM의 경우 GAIN은 0.15 200RPM의 경우 GAIN값은 0.25가 적절하다.)
+
+![image](https://github.com/user-attachments/assets/1398ff57-b707-44c6-b573-8922cb4b06e8)
+
+![image](https://github.com/user-attachments/assets/bb4a003f-9706-4c82-bbf6-a357fe10a7e6)
+
+
+
 라인을 검출한 후(linedetect_sim 디렉토리 와 함수 설명 참고) 라인의 무게중심의 좌표에 따라 구한 에러값을 통하여 rvel,lvel값을 조절하여 라인을 따라가게 된다 라인이 없어지는 경우 이전 값을 따라간다.(라인이 다시 검출 될때까지)
 
 블록도
